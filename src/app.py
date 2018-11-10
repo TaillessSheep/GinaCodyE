@@ -1,7 +1,5 @@
 import serial
 import serial.tools.list_ports
-import keyboard
-import string
 import time
 import flask
 
