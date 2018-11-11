@@ -7,6 +7,7 @@ void setup() {
   while(!Serial);
   servo.attach(10);
 }
+
 int a;
 void loop() {
   Serial.println("Waiting for input...");

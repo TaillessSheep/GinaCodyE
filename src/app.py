@@ -14,6 +14,8 @@ def get_open_comports():
 port = get_open_comports()[0].device
 print(port)
 arduino = serial.Serial(port, 9600, timeout=1)
+# arduino.port = 'COM9'
+# arduino.open()
 
 # pos = 1000
 
